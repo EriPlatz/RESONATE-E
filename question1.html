@@ -1,0 +1,61 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Resonate Technical test</title>
+</head>
+<body>
+    <header class="line-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="https://resonate-consultants.com/" class="nav__logo"><img src="Assets/Resonate-logo.png" style="height: auto" ></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="index.html#instructions" class="nav__link">Instructions</a></li>
+                    <li class="nav__item"><a href="question1.html" class="nav__link">Q1</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Q1 -->
+    <section class="q1 section" id="q1">
+        <h2 class="section-title">Question 1</h2>
+        <br>
+        <h2 style="text-align: center">Solution for Level 200</h2>
+        <div class="q1__container bd-grid">          
+            <div id="test-section" style="padding:16px">
+                <div class="q1_input_field">
+                    <label class="field q1_input">
+                        <input type="text" class="code_input" id="code"" required="" placeholder="Enter code">
+                    </label>
+                </div>
+                <!-- <p> Enter Code: <input type="text" class="code_input" id="code" required=""/> -->
+                </br></br>
+                  <button class="button" onclick="RunTests()"><span>Run test</span></button></br>
+                </p>
+                <h3>Test results:</h3>
+                <div id="test-results"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <p class="footer__copy">&copy; Erika Platzman</p>
+    </footer>
+
+</body>
